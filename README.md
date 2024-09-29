@@ -20,16 +20,16 @@ pip install numpy pandas matplotlib scikit-learn keras tensorflow
 ## Dataset
 The dataset used in this project is the FER2013 dataset. The images are 48x48 pixel grayscale images, with each image labeled with one of the following emotions:
 
--Anger
--Disgust
--Fear
--Happiness
--Sadness
--Surprise
--Neutral
+*Anger
+*Disgust
+*Fear
+*Happiness
+*Sadness
+*Surprise
+*Neutral
 
 ## Usage
--Mount Google Drive (if using Google Colab): The script includes code to mount your Google Drive for easy access to the dataset.
+*Mount Google Drive (if using Google Colab): The script includes code to mount your Google Drive for easy access to the dataset.
 -Load the dataset: The data is loaded and preprocessed to convert images to the appropriate format and labels to one-hot encoded values.
 -Split the dataset: The dataset is split into training, validation, and test sets.
 -Standardize and reshape the data: Images are standardized and reshaped for model input.
