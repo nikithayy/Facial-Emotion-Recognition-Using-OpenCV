@@ -20,8 +20,8 @@ pip install numpy pandas matplotlib scikit-learn keras tensorflow
 ## Dataset
 The dataset used in this project is the FER2013 dataset. The images are 48x48 pixel grayscale images, with each image labeled with one of the following emotions:
 
-*Anger
-*Disgust
+* Anger
+* Disgust
 *Fear
 *Happiness
 *Sadness
